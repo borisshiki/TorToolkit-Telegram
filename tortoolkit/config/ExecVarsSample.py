@@ -5,29 +5,29 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "04f4df13478d3dfb7dfd4e5877b1c808"
+        API_ID = 7060175
+        BOT_TOKEN = "1954218332:AAGs2bZ41tEjzjv4gsybzzCwQm9XlfJRBkw"
+        BASE_URL_OF_BOT = "https://ydkttk.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-1001585843736]
+        OWNER_ID = 906613132
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 5
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 20197152000
 
         # Should force evething uploaded into Document
-        FORCE_DOCUMENTS = False
+        FORCE_DOCUMENTS = True
 
         # Chracter to use as a completed progress 
         COMPLETED_STR = "▰"
@@ -45,7 +45,7 @@ except:
         CENTRAL_UPDATE = True
 
         # MEGA CONFIG
-        MEGA_ENABLE = False
+        MEGA_ENABLE = True
         MEGA_API = ""
         MEGA_UNAME = None
         MEGA_PASS = None
@@ -75,7 +75,7 @@ except:
         RCLONE_BASE_DIR = "/"
         
         # Set this value to show all the remotes while leeching
-        SHOW_REMOTE_LIST = False
+        SHOW_REMOTE_LIST = True
         
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
@@ -83,7 +83,7 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
@@ -118,20 +118,20 @@ except:
         DEF_RCLONE_DRIVE = ""
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 200000000
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 10000000000
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
-        BOT_CMD_POSTFIX = "" 
+        BOT_CMD_POSTFIX = "@unoxcvbot" 
 
         # Time out for the status Delete.
         STATUS_DEL_TOUT = 20
 
         # Allow the user settings to be accessed in private
-        USETTINGS_IN_PRIVATE = False
+        USETTINGS_IN_PRIVATE = True
 
         # Torrent max time to collect metadata in seconds
         TOR_MAX_TOUT = 180
